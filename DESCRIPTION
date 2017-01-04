@@ -1,0 +1,16 @@
+Package: tidy2px
+Title: Trasforma un Cubo di Dati da Data Frame a File '.px'
+Description: Trasforma un cubo di dati da data frame a file '.px'. Prima di
+    essere trasformato in oggetto e file '.px', il cubo in forma di data frame viene
+    trasformato in array.
+Version: 0.0.0
+License: GPL-2
+Author: Gibo <gibo.gaf@gmail.com>
+Maintainer: Gibo <gibo.gaf@gmail.com>
+Depends:
+    R (>= 3.1.2)
+Imports:
+    reshape2 (>= 1.4.2),
+    pxR (>= 0.40.0)
+Encoding: UTF-8
+RoxygenNote: 5.0.1
