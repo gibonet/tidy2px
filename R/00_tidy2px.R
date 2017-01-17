@@ -1,10 +1,9 @@
 
-#' Tools to estimate and manage empirical distributions
+#' Trasforma un Cubo di Dati da Data Frame a File '.px'
 #' 
-#' Tools to estimate and manage empirical distributions,
-#'         which should work with survey data. It's possible to have the
-#'         same functionalities in different ways (for example based on
-#'         plyr and dplyr).
+#' Trasforma un cubo di dati da data frame a file '.px'. Prima di
+#' essere trasformato in oggetto e file '.px', il cubo in forma di data frame viene
+#' trasformato in array.
 #' 
 #' @docType package
 #' @name tidy2px
