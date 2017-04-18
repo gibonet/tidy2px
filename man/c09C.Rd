@@ -11,7 +11,7 @@ Statistiche sulla distribuzione dei salari nel settore privato in Ticino, second
 \format{
   A data frame with 735 observations on the following 11 variables.
   \describe{
-    \item{\code{anno}}{a factor with levels \code{Totale} \code{2002} \code{2004} \code{2006} \code{2008} \code{2010} \code{2012} \code{2014}}
+    \item{\code{anno}}{a factor with levels \code{2002} \code{2004} \code{2006} \code{2008} \code{2010} \code{2012} \code{2014}}
     \item{\code{posizione}}{a factor with levels \code{Totale} \code{Quadri superiori e medi} \code{Quadri inferiori} \code{Responsabile esecuzione lavori} \code{Senza funzione di quadro}}
     \item{\code{sesso}}{a factor with levels \code{Totale} \code{Uomini} \code{Donne}}
     \item{\code{statuto}}{a factor with levels \code{Totale} \code{Svizzeri} \code{Domiciliati (Cat. C)} \code{Dimoranti (Cat. B)} \code{Frontalieri (Cat. G)} \code{Dimoranti temporanei (Cat. L)} \code{Altri}}

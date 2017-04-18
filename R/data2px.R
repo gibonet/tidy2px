@@ -8,10 +8,12 @@
 
 #' Trasforma un cubo di dati da data frame a oggetto di classe 'px'
 #' 
-#' @param .data cubo di dati in forma di data frame
-#' @param id.vars vettore character con i nomi delle variabili categoriali del cubo di dati
-#' @param measure.vars vettore character con i nomi delle colonne che contengono le statistiche del cubo
-#' @param variable.name nome da dare alla colonna che conterrà il nome della misura (default = "misura")
+#' @param .data cubo di dati in forma di data frame.
+#' @param id.vars vettore character con i nomi delle variabili categoriali del cubo di dati.
+#' @param measure.vars vettore character con i nomi delle colonne che contengono
+#'   le statistiche del cubo.
+#' @param variable.name nome da dare alla colonna che conterrà il nome della 
+#'    misura (default = "misura").
 #' 
 #' @examples 
 #' data(c09C)
@@ -29,7 +31,8 @@
 #' @export
 data2px <- function(.data, id.vars, measure.vars, variable.name = "misura"){
   # 1. melt
-  .data_melt <- reshape2::melt(.data, id.vars = id.vars, measure.vars = measure.vars, variable.name = "misura")
+  .data_melt <- reshape2::melt(.data, id.vars = id.vars, 
+                               measure.vars = measure.vars, variable.name = variable.name)
   
   # 2. Spostamento della colonna "misura" al primo posto
   colonne <- colnames(.data_melt)

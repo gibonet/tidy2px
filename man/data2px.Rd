@@ -7,13 +7,15 @@
 data2px(.data, id.vars, measure.vars, variable.name = "misura")
 }
 \arguments{
-\item{.data}{cubo di dati in forma di data frame}
+\item{.data}{cubo di dati in forma di data frame.}
 
-\item{id.vars}{vettore character con i nomi delle variabili categoriali del cubo di dati}
+\item{id.vars}{vettore character con i nomi delle variabili categoriali del cubo di dati.}
 
-\item{measure.vars}{vettore character con i nomi delle colonne che contengono le statistiche del cubo}
+\item{measure.vars}{vettore character con i nomi delle colonne che contengono
+le statistiche del cubo.}
 
-\item{variable.name}{nome da dare alla colonna che conterrà il nome della misura (default = "misura")}
+\item{variable.name}{nome da dare alla colonna che conterrà il nome della 
+misura (default = "misura").}
 }
 \description{
 Trasforma un cubo di dati da data frame a oggetto di classe 'px'
@@ -32,4 +34,3 @@ c09C_px <- data2px(c09C,
 class(c09C_px)
 
 }
-
